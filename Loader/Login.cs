@@ -17,7 +17,7 @@ namespace Beta_Loader
         public Login()
         {
             InitializeComponent();
-            Handler.Initialize("219454", "qAKWGFymsBsCZx5ogoFstwwS943PrOxrwaL", "1.0"); //user admin id, program secret, version of it
+            Handler.Initialize("admin id(AID)", "program token", "version"); //user admin id, program secret, version of it
         }
 
         private void OpenRegister_Click(object sender, EventArgs e)
